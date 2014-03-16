@@ -41,6 +41,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    commonjs (0.2.7)
     erubis (2.7.0)
     execjs (2.0.2)
     faraday (0.9.0)
@@ -70,6 +71,13 @@ GEM
     json (1.8.1)
     jwt (0.1.11)
       multi_json (>= 1.5)
+    less (2.4.0)
+      commonjs (~> 0.2.7)
+    less-rails (2.4.2)
+      actionpack (>= 3.1)
+      less (~> 2.4.0)
+    less-rails-bootstrap (3.1.1.0)
+      less-rails (~> 2.4.2)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -155,6 +163,7 @@ DEPENDENCIES
   high_voltage
   jbuilder (~> 1.2)
   jquery-rails
+  less-rails-bootstrap
   rails (= 4.0.4)
   rails_layout
   sass-rails (~> 4.0.2)
